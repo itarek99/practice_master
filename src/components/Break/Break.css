@@ -1,0 +1,33 @@
+.break {
+  margin-top: 1.5rem;
+}
+
+.break__times {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  background-color: #e7e7e7;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.break__time {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.break__time:hover {
+  background-color: #5cb16e;
+  color: #fff;
+}
