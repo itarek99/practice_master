@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "633483ab2ca7b9b9934d7017",
+    "title": "HTML",
+    "about": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.",
+    "img": "https://images.unsplash.com/photo-1583339793403-3d9b001b6008?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "practiceTime": 10
+  },
+  {
+    "_id": "633483abe157692ec8fc685e",
+    "title": "CSS",
+    "about": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.",
+    "img": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "practiceTime": 15
+  },
+  {
+    "_id": "633483ab7e80b67e21fcdd31",
+    "title": "JavaScript",
+    "about": "JavaScript, often abbreviated to JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
+    "img": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "practiceTime": 30
+  },
+  {
+    "_id": "633483ab11016482021e99e4",
+    "title": "Bootstrap 5",
+    "about": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
+    "img": "https://images.unsplash.com/photo-1555952494-efd681c7e3f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "practiceTime": 20
+  },
+  {
+    "_id": "633483ab5ba686e860fcf708",
+    "title": "Tailwind CSS",
+    "about": "The main feature of Tailwind is that, unlike other CSS frameworks, it does not provide a series of predefined classes for elements such as buttons.",
+    "img": "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+    "practiceTime": 25
+  },
+  {
+    "_id": "633483ab6d7075907115324d",
+    "title": "React JS",
+    "about": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
+    "img": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "practiceTime": 45
+  }
+]
