@@ -1,5 +1,6 @@
-import Profile from '../../Profile/Profile';
 import './Sidebar.css';
+
+import Profile from '../Profile/Profile';
 
 function Sidebar() {
   return (

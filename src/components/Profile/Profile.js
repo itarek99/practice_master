@@ -1,4 +1,4 @@
-import userImage from '../images/user.jpg';
+import userImage from '../../images/user.jpg';
 import './Profile.css';
 function Profile() {
   return (
