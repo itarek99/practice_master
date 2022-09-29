@@ -1,5 +1,8 @@
 import './Sidebar.css';
 
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import { useEffect, useState } from 'react';
 import { addToLocalStorage, getTimeFromLocalStorage } from '../../utils/localDB';
 import Break from '../Break/Break';
@@ -18,12 +21,19 @@ function Sidebar({ practiceTime }) {
     setBreakTime(getTimeFromLocalStorage() || breakTime);
   }, [breakTime]);
 
+  const notify = () => toast.success('Practice Complete', { theme: 'dark' });
+
   return (
     <div className='sidebar'>
       <Profile></Profile>
       <Break breakTime={breakTime} breakTimeHandler={breakTimeHandler}></Break>
       <PracticeDetails breakTime={breakTime} practiceTime={practiceTime}></PracticeDetails>
-      <button className='complete-btn'>Practice Complete</button>
+      <div>
+        <button onClick={notify} className='complete-btn'>
+          Practice Complete
+        </button>
+        <ToastContainer autoClose={2000} />
+      </div>
     </div>
   );
 }
