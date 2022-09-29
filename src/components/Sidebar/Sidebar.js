@@ -1,6 +1,7 @@
 import './Sidebar.css';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { addToLocalStorage, getTimeFromLocalStorage } from '../../utils/localDB';
 import Break from '../Break/Break';
 import PracticeDetails from '../PracticeDetails/PracticeDetails';
 import Profile from '../Profile/Profile';
@@ -10,7 +11,13 @@ function Sidebar({ practiceTime }) {
 
   const breakTimeHandler = (newTime) => {
     setBreakTime(newTime);
+    addToLocalStorage(newTime);
   };
+
+  useEffect(() => {
+    const localStorageTime = getTimeFromLocalStorage();
+    setBreakTime(+localStorageTime);
+  }, []);
 
   return (
     <div className='sidebar'>

@@ -15,7 +15,7 @@ function Topics({ practiceTimeHandler }) {
   return (
     <div className='topics'>
       {topics.map((topic) => (
-        <Topic practiceTimeHandler={practiceTimeHandler} topic={topic}></Topic>
+        <Topic key={topic._id} practiceTimeHandler={practiceTimeHandler} topic={topic}></Topic>
       ))}
     </div>
   );

@@ -9,6 +9,7 @@ function Break({ breakTimeHandler, breakTime }) {
       <div className='break__times'>
         {breakTimes.map((time) => (
           <button
+            key={time}
             onClick={() => breakTimeHandler(time)}
             className={`break__time ${breakTime === time ? 'break__time--active' : ''}`}
           >
