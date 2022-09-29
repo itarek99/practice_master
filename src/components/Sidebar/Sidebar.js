@@ -1,4 +1,10 @@
+import Profile from '../../Profile/Profile';
+
 function Sidebar() {
-  return <div>Sidebar</div>;
+  return (
+    <div>
+      <Profile></Profile>
+    </div>
+  );
 }
 export default Sidebar;
