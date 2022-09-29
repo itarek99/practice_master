@@ -1,3 +1,22 @@
 .sidebar {
   padding-inline: 1rem;
 }
+
+.complete-btn {
+  margin-top: 3rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background-color: #5cb16e;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+}
+
+.complete-btn:hover {
+  background-color: #368848;
+}
