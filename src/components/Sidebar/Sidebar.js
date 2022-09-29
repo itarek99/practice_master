@@ -32,7 +32,7 @@ function Sidebar({ practiceTime }) {
         <button onClick={notify} className='complete-btn'>
           Practice Complete
         </button>
-        <ToastContainer autoClose={2000} />
+        <ToastContainer position='top-right' style={{ width: '260px' }} autoClose={2000} />
       </div>
     </div>
   );
