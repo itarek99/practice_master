@@ -1,11 +1,11 @@
 .break {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .break__times {
   display: flex;
   justify-content: space-between;
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
   background-color: #e7e7e7;
   padding: 1.2rem;
   border-radius: 0.5rem;
@@ -27,7 +27,8 @@
   transition: all 0.2s ease-in;
 }
 
-.break__time:hover {
+.break__time:hover,
+.break__time--active {
   background-color: #5cb16e;
   color: #fff;
 }

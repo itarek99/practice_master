@@ -1,5 +1,5 @@
 import './Topic.css';
-function Topic({ topic }) {
+function Topic({ topic, practiceTimeHandler }) {
   const { title, about, img, practiceTime } = topic;
 
   return (
@@ -10,7 +10,9 @@ function Topic({ topic }) {
         <p className='card__text'>{about.length > 80 ? about.slice(0, 75) + '...' : about}</p>
         <p className='practice__time'>Practice Time: {practiceTime} min.</p>
       </div>
-      <button className='add__btn'>Add a Session</button>
+      <button onClick={() => practiceTimeHandler(practiceTime)} className='add__btn'>
+        Add a Session
+      </button>
     </div>
   );
 }

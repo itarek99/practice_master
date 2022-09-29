@@ -3,7 +3,7 @@ import Topic from '../Topic/Topic';
 
 import './Topics.css';
 
-function Topics() {
+function Topics({ practiceTimeHandler }) {
   const [topics, setTopics] = useState([]);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ function Topics() {
   return (
     <div className='topics'>
       {topics.map((topic) => (
-        <Topic topic={topic}></Topic>
+        <Topic practiceTimeHandler={practiceTimeHandler} topic={topic}></Topic>
       ))}
     </div>
   );

@@ -1,5 +1,5 @@
 .practice-details {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .practice-details__item {
@@ -7,7 +7,7 @@
   justify-content: space-between;
   border-radius: 0.5rem;
   background-color: #e7e7e7;
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
   padding: 1rem;
 }
 
