@@ -3,7 +3,7 @@ const addToLocalStorage = (time) => {
 };
 
 const getTimeFromLocalStorage = () => {
-  return localStorage.getItem('time');
+  return +localStorage.getItem('time');
 };
 
 export { addToLocalStorage, getTimeFromLocalStorage };

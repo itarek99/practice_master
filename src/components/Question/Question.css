@@ -1,0 +1,11 @@
+.question-card {
+  padding: 1.5rem;
+  background-color: #e7e7e7;
+}
+
+.question-card__question {
+  margin-bottom: 0.7rem;
+}
+.question-card__answer {
+  font-size: 15px;
+}

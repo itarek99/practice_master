@@ -1,0 +1,12 @@
+.questions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 840px) {
+  .questions {
+    grid-template-columns: 1fr;
+  }
+}

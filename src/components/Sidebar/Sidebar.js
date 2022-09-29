@@ -7,7 +7,7 @@ import PracticeDetails from '../PracticeDetails/PracticeDetails';
 import Profile from '../Profile/Profile';
 
 function Sidebar({ practiceTime }) {
-  const [breakTime, setBreakTime] = useState(2);
+  const [breakTime, setBreakTime] = useState(getTimeFromLocalStorage() || 2);
 
   const breakTimeHandler = (newTime) => {
     setBreakTime(newTime);
@@ -15,9 +15,8 @@ function Sidebar({ practiceTime }) {
   };
 
   useEffect(() => {
-    const localStorageTime = getTimeFromLocalStorage();
-    setBreakTime(+localStorageTime);
-  }, []);
+    setBreakTime(getTimeFromLocalStorage() || breakTime);
+  }, [breakTime]);
 
   return (
     <div className='sidebar'>

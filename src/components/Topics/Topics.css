@@ -3,3 +3,17 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
 }
+
+@media only screen and (max-width: 1200px) {
+  .topics {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .topics {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}
